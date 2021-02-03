@@ -1,13 +1,15 @@
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 
-// Page Components
+// Pages
 import LandingPage from './pages/LandingPage/index';
 import ProfilePage from './pages/ProfilePage/index';
 import ProjectsPage from './pages/ProjectsPage/index';
 import ProjectShowPage from './pages/ProjectShowPage/index';
 import MediaPage from './pages/MediaPage/index';
 
+// Components
+import Header from './components/Header/index';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route path="/project" component={ProjectShowPage} />
         <Route path="/media" component={MediaPage} />
       </Switch>
+      <Header />
     </div>
   );
 }

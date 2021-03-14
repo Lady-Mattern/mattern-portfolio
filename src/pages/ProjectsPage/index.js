@@ -1,3 +1,4 @@
+import ProjectCard from '../../components/ProjectCard/index';
 
 function ProjectsPage() {
     return (

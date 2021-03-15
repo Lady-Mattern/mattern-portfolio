@@ -8,8 +8,6 @@ import ProjectsPage from './pages/ProjectsPage/index';
 import ProjectShowPage from './pages/ProjectShowPage/index';
 import MediaPage from './pages/MediaPage/index';
 
-// Components
-
 function App() {
   return (
     <div className="App">

@@ -1,10 +1,16 @@
+import Header from '../../components/Footer/index';
+import Footer from '../../components/Footer';
 import MediaCard from '../../components/MediaCard/index';
 
 function MediaPage() {
     return (
         <div>
-            <h1>Media Page</h1>
-            <MediaCard />
+            <Header />
+            <main>
+                <h1>Media Page</h1>
+                <MediaCard />
+            </main>
+            <Footer />
         </div>
     )
 }

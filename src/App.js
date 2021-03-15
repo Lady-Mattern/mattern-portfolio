@@ -9,7 +9,6 @@ import ProjectShowPage from './pages/ProjectShowPage/index';
 import MediaPage from './pages/MediaPage/index';
 
 // Components
-import Header from './components/Header/index';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Route path="/project" component={ProjectShowPage} />
         <Route path="/media" component={MediaPage} />
       </Switch>
-      <Header />
     </div>
   );
 }

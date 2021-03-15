@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    color: ivory;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+}

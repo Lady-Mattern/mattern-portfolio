@@ -1,6 +1,6 @@
 // Components
-import Header from '../../components/Footer/index';
-import Footer from '../../components/Footer';
+import Header from '../../components/Header/index';
+import Footer from '../../components/Footer/index';
 import MediaCard from '../../components/MediaCard/index';
 
 // Styles

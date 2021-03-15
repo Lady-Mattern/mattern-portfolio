@@ -12,7 +12,21 @@ function ProjectsPage() {
             <Header />
             <main>
                 <h1>Projects Page</h1>
-                <ProjectCard />
+                <ProjectCard 
+                    title="MyBallot-Wa"
+                    image=""
+                    link=""
+                />
+                <ProjectCard 
+                    title="Oxygen"
+                    image=""
+                    link=""
+                />
+                <ProjectCard 
+                    title="Crazy Cat Survey"
+                    image=""
+                    link=""
+                />
             </main>
             <Footer />
         </div>

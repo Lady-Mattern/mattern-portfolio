@@ -1,4 +1,8 @@
+// Built-In Components
 import { Link } from 'react-router-dom';
+
+// Styles
+import styles from './styles.css';
 
 function LandingPage() {
     return (

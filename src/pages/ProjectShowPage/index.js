@@ -1,5 +1,9 @@
 import Header from '../../components/Header/index';
+// Components
 import Footer from '../../components/Footer/index';
+
+// Styles
+import styles from './styles.css';
 
 function ProjectShowPage() {
     return (

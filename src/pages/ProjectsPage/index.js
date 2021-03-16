@@ -8,7 +8,7 @@ import styles from './styles.css';
 
 function ProjectsPage() {
     return (
-        <div>
+        <div id="flex-container">
             <Header />
             <main>
                 <h1>Projects Page</h1>

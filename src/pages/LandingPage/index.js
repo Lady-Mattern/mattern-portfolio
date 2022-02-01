@@ -10,7 +10,7 @@ function LandingPage() {
             <p className="left">Welcome to the home of...</p>
             <h1>Leah Mattern</h1>
             <p className="left">A reasonably tame Software Engineer</p>
-            <Link to="/profile"><button>Touch to Enter</button></Link>
+            <Link to="/profile" id="enter-link"><span>Touch to Enter</span></Link>
         </div>
     )
 }

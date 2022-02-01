@@ -16,7 +16,7 @@ function App() {
         <Route path="/profile" component={ProfilePage} />
         <Route path="/projects" component={ProjectsPage} />
         <Route path="/project" component={ProjectShowPage} />
-        <Route path="/media" component={MediaPage} />
+         <Route path="/media" component={MediaPage} />
       </Switch>
     </div>
   );

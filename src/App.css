@@ -2,8 +2,6 @@
   box-sizing: border-box;
   display: flex;
   height: 100vh;
-  background-color: black;
-  background: linear-gradient(#003366, #000000);
   text-align: center;
   color: #ffffb7;
 }

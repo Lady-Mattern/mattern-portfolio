@@ -1,7 +1,12 @@
 body {
+  /* Custom Styles */
   background-color: black;
   background: linear-gradient(#003366, #000000);
   margin: 0;
+  color: blanchedalmond;
+
+
+  /* React Styles */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

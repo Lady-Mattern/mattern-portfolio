@@ -4,3 +4,13 @@
     border-radius: 10px;
     box-shadow: black 10px 10px 10px;
 }
+
+#contact-info {
+    display: flex;
+    flex-flow: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row;
+}

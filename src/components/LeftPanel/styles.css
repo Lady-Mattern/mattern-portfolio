@@ -1,6 +1,9 @@
+#content-left {
+    width: 25vw;
+}
+
 #profile-image {
-    max-width: 40vw;
-    margin: 0 auto;
+    height: 7rem;
     border-radius: 10px;
     box-shadow: black 10px 10px 10px;
 }

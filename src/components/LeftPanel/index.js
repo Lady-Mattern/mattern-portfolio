@@ -13,15 +13,21 @@ function LeftPanel () {
             <Image id="profile-image" image={leah} alt="Leah Mattern's profile picture" />
             <div id="contact-info">
                 <div className='flex-row'>
-                    <p>Linkedin Logo Here Soon</p>
+                    <span>
+                    <i class="fab fa-linkedin"></i>
+                    </span>
                     <a href='https://www.linkedin.com/in/lady-leah-mattern/'>Linkedin</a>
                 </div>
                 <div className='flex-row'>
-                    <p>GitHub Logo Coming Soon</p>
+                    <span>
+                        <i class="fab fa-github-square"></i>
+                    </span>
                     <a href='https://github.com/Lady-Mattern'>GitHub</a>
                 </div>
                 <div className='flex-row'>
-                    <p>Email Logo Coming Soon</p>
+                    <span>
+                        <i class="fas fa-envelope-square"></i>
+                    </span>
                     <a href="mailto: ladyleahmattern@gmail.com">Email</a>
                 </div>
             </div>

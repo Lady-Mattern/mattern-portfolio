@@ -11,13 +11,15 @@ function ProfilePage() {
     return (
         <div className='page-layout'>
             <Header />
-            <aside>
-                <LeftPanel />
-            </aside>
-            <main>
-                <h1>Profile Page</h1>
-                <Resume />
-            </main>
+            <div className='flex-content'>
+                <aside>
+                    <LeftPanel />
+                </aside>
+                <main>
+                    <h1>Profile Page</h1>
+                    <Resume />
+                </main>
+            </div>
             <Footer />
         </div>
     )

@@ -1,6 +1,14 @@
+// Styles
+import styles from './styles.css';
+
 function Resume() {
     return (
-        <div it="interactive-resume">This is Leah's Interactive Resume</div>
+        <div id="interactive-resume">
+           <p>Leah's E-Resume</p>
+           <p>
+               things and stuff. lots of words. very cool things. awesomeness.
+           </p>
+        </div>
     )
 }
 

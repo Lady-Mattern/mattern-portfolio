@@ -1,6 +1,9 @@
 // Static Assets
 import leah from '../../assets/images/profile-photo.jpg';
 
+// Styles
+import styles from './styles.css';
+
 // Components
 import Image from '../Image/index';
 

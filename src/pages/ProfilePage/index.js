@@ -11,7 +11,7 @@ function ProfilePage() {
     return (
         <div className='page-layout'>
             <Header />
-            <div className='flex-content'>
+            <div id='flex-content'>
                 <aside>
                     <LeftPanel />
                 </aside>

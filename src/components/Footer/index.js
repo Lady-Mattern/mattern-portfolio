@@ -1,3 +1,4 @@
+import styles from './styles.css'
 
 function Footer() {
     return (

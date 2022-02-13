@@ -13,13 +13,13 @@ nav {
     margin-left: 1rem;
 }
 
-ul {
+.nav-list {
     width: 75%;
     display: flex;
     justify-content: space-evenly;
 }
 
-li {
+.nav-list-item {
     list-style: none;
 }
 

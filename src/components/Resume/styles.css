@@ -9,3 +9,7 @@
 hr {
     color: black;
 }
+
+.employment-list {
+    flex-direction: column;
+}

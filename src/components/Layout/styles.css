@@ -6,8 +6,8 @@
 }
 
 header {
-    background: linear-gradient(135deg, #003366 40%, #000000);
-
+    background: linear-gradient(150deg, #003366 30%, #000000);
+    border-bottom: 1px solid black;
 }
 
 /* ======== ASIDE CONTENT ======== */

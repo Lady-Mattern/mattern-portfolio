@@ -26,7 +26,7 @@ aside {
 #contact-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .flex-row {
@@ -36,6 +36,7 @@ aside {
 .flex-row > a {
     margin-left: 1rem;
     font-size: 1.5rem;
+    color: blanchedalmond;
 }
 
 main {
@@ -43,7 +44,3 @@ main {
     flex-direction: column;
     align-items: center;
 }
-
-/* footer {
-
-} */

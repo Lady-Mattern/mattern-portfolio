@@ -30,10 +30,11 @@ li {
     color: blanchedalmond;
 }
 
-nav .nav-link:focus {
-    border-bottom: 1px solid blanchedalmond;
+.nav-link:focus {
+    border: none;
+    /* border-bottom: 1px solid blanchedalmond; */
 }
 
-nav .nav-link:hover {
+.nav-link:hover {
     border-bottom: 1px solid blanchedalmond;
 }

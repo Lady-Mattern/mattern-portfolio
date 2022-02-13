@@ -9,7 +9,7 @@ import styles from './styles.css';
 
 export default (props) => (
     <header>
-        <Link id="logo" to="/profile">LM</Link>
+
         <Nav />
     </header>
 )

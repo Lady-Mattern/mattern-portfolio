@@ -1,8 +1,6 @@
-aside {
+/* aside {
     background-color: pink;
     display: flex;
-    flex-grow: 1;
-    padding: 2rem;
 }
 
 #profile-image {
@@ -14,4 +12,4 @@ aside {
 .flex-row {
     display: flex;
     flex-flow: row;
-}
+} */

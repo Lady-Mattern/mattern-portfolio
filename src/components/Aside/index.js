@@ -13,7 +13,7 @@ export default (props) => (
         <div id="contact-info">
             <div className='flex-row'>
                 <span>
-                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-linkedin fa-2x"></i>
                 </span>
                 <a href='https://www.linkedin.com/in/lady-leah-mattern/'>
                     Linkedin
@@ -21,7 +21,7 @@ export default (props) => (
             </div>
             <div className='flex-row'>
                 <span>
-                    <i class="fab fa-github-square"></i>
+                    <i class="fab fa-github-square fa-2x"></i>
                 </span>
                 <a href='https://github.com/Lady-Mattern'>
                     GitHub
@@ -29,7 +29,7 @@ export default (props) => (
             </div>
             <div className='flex-row'>
                 <span>
-                    <i class="fas fa-envelope-square"></i>
+                    <i class="fas fa-envelope-square fa-2x"></i>
                 </span>
                 <a href="mailto: ladyleahmattern@gmail.com">
                     Email

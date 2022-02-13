@@ -1,6 +1,11 @@
 #interactive-resume {
     background-color: rgba(106, 1082, 110, .5);
     color: black;
-    width: 75%;
+    width: 90%;
+    padding: .5rem;
     border-radius: 5px;
+}
+
+hr {
+    color: black;
 }

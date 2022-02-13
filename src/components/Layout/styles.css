@@ -10,6 +10,8 @@ header {
 
 }
 
+/* ======== ASIDE CONTENT ======== */
+
 aside {
     height: fit-content;
     padding: 1rem;
@@ -39,8 +41,14 @@ aside {
     color: blanchedalmond;
 }
 
+/* ======== MAIN CONTENT ======== */
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
 }

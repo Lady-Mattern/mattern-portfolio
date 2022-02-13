@@ -1,11 +1,9 @@
 import styles from './styles.css'
 
-function Footer() {
-    return (
-        <footer>
-            Copyright &copy; {new Date().getFullYear()} Leah Mattern. All rights reserved.
-        </footer>
-    )
-}
-
-export default Footer;
+export default (props) (
+    <footer>
+        <p>
+            Copyright &copy; {new Date().getFullYear()} Leah Mattern.  All rights reserved.
+        </p>
+    </footer>
+)

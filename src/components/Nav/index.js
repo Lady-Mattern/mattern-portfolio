@@ -8,12 +8,12 @@ export default (props) => (
     <nav>
         <ul>
             <li>
-                <Link className="link" to="/ projects">
+                <Link className="nav-link" to="/projects">
                     Projects
                 </Link>
             </li>
             <li>
-                <Link className="link" to="/Media">
+                <Link className="nav-link" to="/media">
                     Media
                 </Link>
             </li>

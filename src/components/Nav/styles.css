@@ -13,6 +13,17 @@ li {
     list-style: none;
 }
 
-.link {
+.nav-link {
     margin: .5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+nav .nav-link:focus {
+    border-bottom: 1px solid blanchedalmond;
+}
+
+nav .nav-link:hover {
+    border-bottom: 1px solid blanchedalmond;
 }

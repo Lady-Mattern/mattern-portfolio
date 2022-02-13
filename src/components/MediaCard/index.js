@@ -1,10 +1,8 @@
+// Styles
+import styles from './styles.css';
 
-function MediaCard() {
-    return (
-        <div className="media-card">
-            <h2>Media Card</h2>
-        </div>
-    )
-}
-
-export default MediaCard;
+export default (props) => (
+    <div className="media-card">
+        <h2>Media Card</h2>
+    </div>
+)

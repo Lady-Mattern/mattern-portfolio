@@ -1,5 +1,8 @@
-/* #content-left {
-    width: 25vw;
+aside {
+    background-color: pink;
+    display: flex;
+    flex-grow: 1;
+    padding: 2rem;
 }
 
 #profile-image {
@@ -11,4 +14,4 @@
 .flex-row {
     display: flex;
     flex-flow: row;
-} */
+}

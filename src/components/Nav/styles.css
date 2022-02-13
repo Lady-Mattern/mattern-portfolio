@@ -1,0 +1,18 @@
+nav {
+    background-color: purple;
+    width: 75%;
+}
+
+ul {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+.link {
+    margin: .5rem;
+}

@@ -9,7 +9,7 @@ import Image from '../Image/index';
 
 export default (props) => (
     <aside>
-        <Image id="profile-image" image={leah} alt="Leah Mattern's profile picture" />
+        <Image id={`profile-image`} image={leah} alt={`Leah Mattern's profile picture`} />
         <div id="contact-info">
             <div className='flex-row'>
                 <span>

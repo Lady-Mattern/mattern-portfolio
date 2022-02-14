@@ -7,7 +7,11 @@ import styles from './styles.css';
 
 export default (props) => (
     <Layout>
-        <h1>About Me</h1>
+        <h1>Hello! I'm Leah</h1>
+        <h2>About Me</h2>
+        <p>Things. Words. All of the best placeholder text ever.</p>
+        <h2>Check Out My Resume</h2>
         <Resume />
+        
     </Layout>
 )

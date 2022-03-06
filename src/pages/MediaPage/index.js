@@ -1,5 +1,6 @@
 // Components
 import Layout from '../../components/Layout/index';
+import VideoCard from '../../components/VideoCard';
 import MediaCard from '../../components/MediaCard/index';
 
 // Static Assets
@@ -16,18 +17,18 @@ export default (props) => (
         <h1>Media Page</h1>
         <p>Here is some media stuff</p>
         <h2>Videos</h2>
-        <MediaCard 
-            title={`On Learning to Code as a Visually Impaired Human`} 
+        <VideoCard 
+            heading={"Bringing Your Strengths andWeaknesses to Coding"} 
             description={"This is some placeholder text"} 
-            id={'vide-sample'} 
-            image={sample} 
-            alt={'this is pusheen eating a cookie'}
-            link={'www.google.com'}
+            id={'video-leahandmartha'} 
+            link={'https://www.youtube.com/watch?v=WlCaCL5YEfc&t=2s'}
             text={"View the video here"}
+            src={"https://www.youtube.com/embed/WlCaCL5YEfc"}
+            title={"Youtube Media Player"}
         />
         <h2>Blog</h2>
         <MediaCard 
-            title={`On Learning to Code as a Visually Impaired Human`} 
+            heading={`On Learning to Code as a Visually Impaired Human`} 
             description={"This is a sample card"} 
             id={'visually-impaired-human'} 
             image={blindcode} 
@@ -36,7 +37,7 @@ export default (props) => (
             text={"check out the article here"}
         />
         <MediaCard 
-            title={"Heroku and You"}
+            heading={"Heroku and You"}
             description={"description of the thing"}
             id={"heroku"}
             image={heroku}
@@ -45,7 +46,7 @@ export default (props) => (
             text={"check out the article here"}
         />
         <MediaCard 
-            title={'How the Words "Hello World" Changed My Life Forever'}
+            heading={'How the Words "Hello World" Changed My Life Forever'}
             description={"description of this article"}
             id={"changed-forever"}
             image={helloworld}

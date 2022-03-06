@@ -1,8 +1,5 @@
 // Components
-import Image from '../../components/Image/index';
-
-
-// Static Assets
+import Iframe from '../../components/Iframe/index';
 
 // Styles
 import styles from './styles.css';
@@ -13,7 +10,7 @@ export default (props) => (
         <a href={props.link} target="_blank" aria-label="This link opens in a new tab">
         {props.text}
         </a>
-        <Image id={props.id} image={props.image} alt={props.alt}/>
+        <Iframe src={props.src} title={props.title} />
         <p>{props.description}</p>
     </div>
 )

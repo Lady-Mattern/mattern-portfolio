@@ -5,7 +5,7 @@ import Iframe from '../../components/Iframe/index';
 import styles from './styles.css';
 
 export default (props) => (
-    <div className="media-card">
+    <div className="video-card">
         <h3>{props.heading}</h3>
         <a href={props.link} target="_blank" aria-label="This link opens in a new tab">
         {props.text}

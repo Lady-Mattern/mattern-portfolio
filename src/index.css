@@ -44,6 +44,10 @@ body {
   .media-card {
     width: 90%;
   }
+
+  .video-card {
+    width: 90%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

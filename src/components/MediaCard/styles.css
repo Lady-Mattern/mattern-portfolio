@@ -1,0 +1,22 @@
+.media-card {
+    background: linear-gradient(rgba(201, 201, 226, 0.3), rgba(201, 201, 226, 0.1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.media-card h3 {
+    width: 90%;
+}
+
+.media-card a {
+    margin: 1rem;
+}
+
+.media-card img {
+    width:90%;
+    border-radius: 5px;
+}
+

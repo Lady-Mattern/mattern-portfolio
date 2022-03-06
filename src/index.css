@@ -40,6 +40,10 @@ body {
   li {
     line-height: 1.75rem;
   }
+
+  .media-card {
+    width: 90%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

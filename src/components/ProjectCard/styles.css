@@ -1,5 +1,28 @@
 .project-card {
-    background: linear-gradient(rgba(201, 201, 226, 0.3), rgba(201, 201, 226, 0.0));
-    width: 70vw;
+    background: linear-gradient(rgba(201, 201, 226, 0.3), rgba(201, 201, 226, 0.1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 5px;
+    text-align: center;
+    margin: 1rem 0;
+    width: 90%;
+}
+
+.project-card h2 {
+    width: 90%;
+}
+
+.project-card a {
+    margin: 1rem;
+}
+
+.project-card img {
+    width:90%;
+    border-radius: 5px;
+    box-shadow: black 10px 10px 10px;
+}
+
+a {
+    color: blanchedalmond;
 }

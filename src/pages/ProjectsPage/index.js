@@ -2,6 +2,9 @@
 import Layout from '../../components/Layout/index';
 import ProjectCard from '../../components/ProjectCard/index';
 
+// Static Assets
+import sample from '../../assets/images/pusheen-cookie.png';
+
 // Styles
 import styles from './styles.css';
 
@@ -9,19 +12,22 @@ export default (props) => (
     <Layout>
         <h1>Projects Page</h1>
             <ProjectCard 
-                title="MyBallot-Wa"
-                image=""
-                link=""
+                heading={"MyBallot-Wa"}
+                image={sample}
+                link={""}
+                id={""}
             />
             <ProjectCard 
-                title="Oxygen"
-                image=""
-                link=""
+                heading={"Oxygen"}
+                image={sample}
+                link={""}
+                id={""}
             />
             <ProjectCard 
-                title="Crazy Cat Survey"
-                image=""
-                link=""
+                heading={"Crazy Cat Survey"}
+                image={sample}
+                link={""}
+                id={""}
             />
     </Layout>
 )

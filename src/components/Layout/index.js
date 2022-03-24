@@ -10,6 +10,7 @@ export default (props) => (
     <div className={styles.container}>
         <Header />
         <Aside />
+        <hr/>
         <main>
             {props.children}
         </main>

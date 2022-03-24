@@ -29,7 +29,15 @@ body {
   }
 
   body {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .fab {
+    font-size: 1em;
+  }
+
+  .fas {
+    font-size: 1em;
   }
 
   p {
@@ -48,12 +56,49 @@ body {
   .video-card {
     width: 90%;
   }
+
+  #profile-image {
+    height: 7rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   #flex-content {
     flex-direction: column;
+  }
+
+  body {
+    font-size: 25px;
+  }
+
+  .fab {
+    font-size: 1em;
+  }
+
+  .fas {
+    font-size: 1em;
+  }
+
+  p {
+    width: 90%;
+    line-height: 1.75rem;
+  }
+
+  li {
+    line-height: 1.75rem;
+  }
+
+  .media-card {
+    width: 90%;
+  }
+
+  .video-card {
+    width: 90%;
+  }
+
+  #profile-image {
+    height: 6em;
   }
 }
 

@@ -11,6 +11,9 @@ import styles from './styles.css';
 export default (props) => (
     <Layout>
         <h1>Projects Page</h1>
+
+        <p>Here are some of my favorite projects! Take some time to view the details for each project by clicking on the image.</p>
+        
             <ProjectCard 
                 heading={"MyBallot-Wa"}
                 image={sample}

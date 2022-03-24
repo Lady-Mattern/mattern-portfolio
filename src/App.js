@@ -15,8 +15,9 @@ function App() {
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/profile" component={ProfilePage} />
         <Route exact path="/projects" component={ProjectsPage} />
-        <Route exact path="/project" component={ProjectShowPage} />
         <Route exact path="/media" component={MediaPage} />
+
+        <Route exact path={"/:heading"} component={ProjectShowPage} />
       </Switch>
     </div>
   );
